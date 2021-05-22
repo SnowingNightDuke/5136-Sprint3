@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.fit5136.team60.sprint3.Chair">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="833" height="270"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-lowered" title="CMS Conference"/>
+    <children>
+      <scrollpane id="a9aa6" binding="innerPanel">
+        <constraints>
+          <grid row="1" column="1" row-span="4" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name=".SF NS" size="36" style="1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="4d1ee" class="javax.swing.JList" binding="confList">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="12794" class="javax.swing.JButton" binding="reviewBtn">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Review"/>
+        </properties>
+      </component>
+      <component id="5607f" class="javax.swing.JButton" binding="PaperBtn">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Paper"/>
+        </properties>
+      </component>
+      <component id="73ef4" class="javax.swing.JButton" binding="ConfBtn">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Conference"/>
+        </properties>
+      </component>
+      <grid id="d4f63" layout-manager="GridLayoutManager" row-count="2" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="true"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="623cf" class="javax.swing.JButton" binding="addButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalAlignment value="0"/>
+              <text value="Add.."/>
+            </properties>
+          </component>
+          <component id="938c" class="javax.swing.JButton" binding="modifyButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Modify.."/>
+            </properties>
+          </component>
+          <component id="1d2c9" class="javax.swing.JButton" binding="detailsButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Details.."/>
+            </properties>
+          </component>
+          <hspacer id="757b4">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="345" height="11"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <component id="5e108" class="javax.swing.JLabel" binding="logasLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="You are logged as:"/>
+            </properties>
+          </component>
+          <component id="22fc5" class="javax.swing.JComboBox" binding="roleBox">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Chair"/>
+                <item value="Author"/>
+                <item value="Reviewer"/>
+              </model>
+            </properties>
+          </component>
+          <component id="a4c5d" class="javax.swing.JButton" binding="personalInfoButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Personal Info"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="d9343" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
