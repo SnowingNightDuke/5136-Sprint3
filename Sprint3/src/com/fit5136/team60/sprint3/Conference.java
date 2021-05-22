@@ -11,7 +11,7 @@ public class Conference {
         this.name = name;
         this.title = title;
     }
-
+    //git test
     private void setName(String name){
         this.name = name;
     }
