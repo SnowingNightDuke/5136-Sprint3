@@ -5,9 +5,6 @@ import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.List;
-import java.util.Scanner;
-import com.csvreader.CsvReader;
 
 public class Chair extends JFrame {
 
@@ -26,6 +23,7 @@ public class Chair extends JFrame {
     DefaultListModel<Conference> model = new DefaultListModel<>();
 
     public Chair(Conference conference) {
+
         setVisible(true);
         add(panel1);
         setSize(1200, 725);
@@ -75,9 +73,5 @@ public class Chair extends JFrame {
         });
 
     }
-//
-//    private void loadData(){
-//        Scanner sc = new Scanner("data.csv");
-//        CsvReader csvReader = new CsvReader("data.csv");
-//      }
+
 }
