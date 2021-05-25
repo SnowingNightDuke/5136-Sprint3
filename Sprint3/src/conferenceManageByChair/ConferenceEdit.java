@@ -53,7 +53,7 @@ public class ConferenceEdit extends JFrame {
         add(ConfEditPanel);
         setVisible(true);
 
-
+            //
         backButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
