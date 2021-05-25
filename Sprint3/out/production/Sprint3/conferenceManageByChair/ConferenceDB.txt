@@ -1,5 +1,0 @@
-HelloWorld1#Good#Information Technology#Ruihua Su,Zhibo Yang#5/22/2021#5/28/2021
-HelloWorld2#Good#Information Technology#Ruihua Su,Zhibo Yang#5/22/2021#5/28/2021
-HelloWorld3#Good#Information Technology#Ruihua Su,Zhibo Yang#5/22/2021#5/28/2021
-HelloWorld4#Good#Information Technology#Ruihua Su,Zhibo Yang#5/22/2021#5/28/2021
-HelloWorld5#Good#Information Technology#Ruihua Su,Zhibo Yang#5/22/2021#5/28/2021
