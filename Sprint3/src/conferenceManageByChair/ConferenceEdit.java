@@ -1,6 +1,5 @@
 package conferenceManageByChair;
 
-import sign.SignIn;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
