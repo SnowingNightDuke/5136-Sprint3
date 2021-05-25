@@ -1,8 +1,8 @@
 package conferenceManageByChair;
 
-import checkPaperbyChair.PapersForConference;
-import reviewerAssignment.ReviewAssign;
-import sign.SignIn;
+//import checkPaperbyChair.PapersForConference;
+//import reviewerAssignment.ReviewAssign;
+//import sign.SignIn;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
